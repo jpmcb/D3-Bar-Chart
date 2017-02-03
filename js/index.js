@@ -16,7 +16,7 @@ function runData() {
         .attr('y', function(d){ return (390 - (d/50)); })
         .attr('fill','green')
         .attr('class', 'svg-rect')
-        .append('svg:title').text(function(d,i){ return '$' + d + ' ' + year[i]; })
+        .append('svg:title').text(function(d,i){ return '$' + d + ' Billion - ' + year[i].slice(0,4); })
 }
 
 var request = new XMLHttpRequest();
