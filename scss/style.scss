@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+  font-family: 'Slabo 27px', serif;
+  background: #408c4a
+}
+
+h1 {
+  margin: 15px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  margin: 15px;
+  text-align: center;
+  color: black;
+}
+
+a:hover {
+  color: purple;
+  font-weight: bold;
+}
+
+.chart {
+  background: #dddddd;
+  width: 825px;
+  margin: 0px auto;
+  border-radius: 5px 5px 5px;
+  padding: 5px;
+}
+
+.svg-rect:hover {
+  fill: pink !important;
+}
